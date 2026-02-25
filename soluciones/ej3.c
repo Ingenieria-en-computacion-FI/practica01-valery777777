@@ -6,20 +6,17 @@ int main(){
     int b[3];
     int c[3];
 
-    for (int i=0; i<3; i++)
-    {
+    for (int i=0; i<3; i++){
         pf("La direccion de memoria de a[%i] es %p\n", i, &a[i]);
     }
     pf("\n");
 
-    for (int i=0; i<3; i++)
-    {
+    for (int i=0; i<3; i++){
         pf("La direccion de memoria de b[%i] es %p\n", i, &b[i]);
     }
     pf("\n");
 
-    for (int i=0; i<3; i++)
-    {
+    for (int i=0; i<3; i++){
         pf("La direccion de memoria de c[%i] es %p\n", i, &c[i]);
     }
     pf("\n");
