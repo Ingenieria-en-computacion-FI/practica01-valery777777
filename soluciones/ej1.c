@@ -8,4 +8,10 @@ int main(){
     }
     return 0;
 }
+//1. Imprime direcciones de todos los elementos.
+//2. Calcula diferencia entre direcciones consecutivas.
+//La diferencia corresponde al espacio en la memoria de cada entero, entonces su diferencia es de 4 bytes 
+
+//3. Escribe fórmula general para dirección de a[i].
+//Base + i x tam_tipo
 
